@@ -10,74 +10,226 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+          name: "አዐትብ ገጽየ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/yezewetertselot.png",
+          source: "mp3/ቅዳሜ 1.mp4",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
+          name: "ነኣኩተከ እግዚኦ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/nakuteke.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ኣቡነ ዘበሰማያት",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/abune.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "በሰላም ቅዱስ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/beselame.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ጸሎተ ሃይማኖት",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/tselotehaymanot.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ቅዱስ ቅዱስ ቅዱስ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/qedusqedus.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "እሰግድ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/esegede.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ስብሓት",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/sebehat.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ሰላም ለኪ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/selamleki.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ጸሎተ እግዝእትነ",
+          artist: "ጸሎት ዘዘወትር",
+          cover: "img/teseote.png",
+          source: "mp3/ቅዳሜ 1.mp4",
+          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          favorited: false
+        },
+        {
+          name: "ተፈሲሒ ኦ ምልእተ ጸጋ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/2.png",
+          source: "mp3/ቅዳሜ 2.mp4",
           url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
           favorited: true
         },
         {
-          name: "Extreme Ways",
-          artist: "Moby",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
+          name: "ከመ ከብካብ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/3.png",
+          source: "mp3/ቅዳሜ 3.mp4",
           url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
           favorited: false
         },
         {
-          name: "Butterflies",
-          artist: "Sia",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
+          name: "አንቲ ዉእቱ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/4.png",
+          source: "mp3/ቅዳሜ 4.mp4",
           url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
           favorited: false
         },
         {
-          name: "The Final Victory",
-          artist: "Haggard",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
+          name: "ኮንኪ ዳግሚተ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/5.png",
+          source: "mp3/ቅዳሜ 5.mp4",
           url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
           favorited: true
         },
         {
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
+          name: "አንቲ ዉእቱ ደብተራ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/6.png",
+          source: "mp3/ቅዳሜ 6.mp4",
           url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
           favorited: false
         },
         {
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
+          name: "ተሰመይኪ እመ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/7.png",
+          source: "mp3/ቅዳሜ 7.mp4",
           url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
           favorited: true
         },
         {
-          name: "Overdose",
-          artist: "Grandson",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
+          name: "አንቲ ዉእቱ ሰዋስዉ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/8.png",
+          source: "mp3/ቅዳሜ 8.mp4",
           url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
           favorited: false
         },
         {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+          name: "ናሁ እግዚእ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/9.png",
+          source: "mp3/ቅዳሜ 9.mp4",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "ተፈሥሒ ኦ ምልእተ",
+          artist: "ዘቀዳሚት ሰንበት",
+          cover: "img/10.png",
+          source: "mp3/ቅዳሜ 10.mp4",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "ተሰመይኪ ፍቅርተ",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/11.png",
+          source: "mp3/እሁድ 1.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "ታቦት በወርቅ ልቡጥ",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/12.png",
+          source: "mp3/እሁድ 2.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "መቅደስ ዘይኬልልዋ",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/13.png",
+          source: "mp3/እሁድ 3.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "አንቲ ዉእቱ መሶበ ወርቅ",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/14.png",
+          source: "mp3/እሁድ 4.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "እንቲ ዉእቱ ተቅዋም",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/15.png",
+          source: "mp3/እሁድ 5.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "አንቲ ዉእቱ ማዕጠንት ዘወርቅ",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/16.png",
+          source: "mp3/እሁድ 6.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "ተፈሥሒ ኦ ማርያም ርግብ ሠናይት",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/17.png",
+          source: "mp3/እሁድ 7.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "በትረ አሮን",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/18.png",
+          source: "mp3/እሁድ 8.m4a",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "ለኪ ይደሉ",
+          artist: "ሰንበት ክርስቲያን ቅድስት",
+          cover: "img/19.png",
+          source: "mp3/እሁድ 9.m4a",
           url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
           favorited: false
         }
